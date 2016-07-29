@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="40" id="2OE-Ug-Mog" customClass="assistInfoTableViewCell" customModule="acahara_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2OE-Ug-Mog" id="e82-yu-QmL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="0Yb-Vb-dxU">
+                        <rect key="frame" x="8" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="aAJ-0p-mH3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相談サポートについて" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3I-Bv-s5k">
+                        <rect key="frame" x="36" y="9" width="245" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Yb-Vb-dxU" firstAttribute="centerY" secondItem="e82-yu-QmL" secondAttribute="centerY" id="7yj-xY-rqQ"/>
+                    <constraint firstItem="0Yb-Vb-dxU" firstAttribute="leading" secondItem="e82-yu-QmL" secondAttribute="leadingMargin" id="I7h-CK-S1C"/>
+                    <constraint firstItem="0Yb-Vb-dxU" firstAttribute="centerY" secondItem="H3I-Bv-s5k" secondAttribute="centerY" id="JtZ-uH-btC"/>
+                    <constraint firstItem="H3I-Bv-s5k" firstAttribute="leading" secondItem="0Yb-Vb-dxU" secondAttribute="trailing" constant="8" symbolic="YES" id="PA5-bd-CJ2"/>
+                    <constraint firstItem="0Yb-Vb-dxU" firstAttribute="bottom" secondItem="H3I-Bv-s5k" secondAttribute="bottom" id="ldM-zW-UHX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="H3I-Bv-s5k" secondAttribute="trailing" constant="31" id="qHh-2e-rta"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="assistInfo" destination="0Yb-Vb-dxU" id="Kyh-8c-XC2"/>
+                <outlet property="assistInfoS" destination="H3I-Bv-s5k" id="Wqh-LL-76T"/>
+            </connections>
+            <point key="canvasLocation" x="-88" y="29"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="info" width="20" height="20"/>
+    </resources>
+</document>

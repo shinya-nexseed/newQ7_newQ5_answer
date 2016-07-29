@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B001C4C1D250B3D00424B03 /* makeURLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B001C4B1D250B3D00424B03 /* makeURLCell.xib */; };
+		0B001C4E1D250C1900424B03 /* makeURLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B001C4D1D250C1900424B03 /* makeURLTableViewCell.swift */; };
+		0B00948A1CF6FFB90041B3B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0094891CF6FFB90041B3B5 /* AppDelegate.swift */; };
+		0B00948C1CF6FFB90041B3B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B00948B1CF6FFB90041B3B5 /* HomeViewController.swift */; };
+		0B00948E1CF6FFB90041B3B5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B00948D1CF6FFB90041B3B5 /* SettingViewController.swift */; };
+		0B0094931CF6FFB90041B3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0094921CF6FFB90041B3B5 /* Assets.xcassets */; };
+		0B0094961CF6FFB90041B3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0094941CF6FFB90041B3B5 /* LaunchScreen.storyboard */; };
+		0B0094A11CF6FFB90041B3B5 /* acahara_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0094A01CF6FFB90041B3B5 /* acahara_appTests.swift */; };
+		0B0094AC1CF6FFB90041B3B5 /* acahara_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0094AB1CF6FFB90041B3B5 /* acahara_appUITests.swift */; };
+		0B0094BA1CF708120041B3B5 /* postCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0094B91CF708120041B3B5 /* postCustomCell.xib */; };
+		0B0094BE1CF70C440041B3B5 /* posts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B0094BD1CF70C440041B3B5 /* posts.txt */; };
+		0B0094C01CF70D760041B3B5 /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0094BF1CF70D760041B3B5 /* homeTableViewCell.swift */; };
+		0B01319E1D0ADD51008D04F3 /* create_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B01319D1D0ADD51008D04F3 /* create_new.png */; };
+		0B0194931D23606D006F6E89 /* photoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0194921D23606D006F6E89 /* photoCell.xib */; };
+		0B0194951D2360C2006F6E89 /* photoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0194941D2360C2006F6E89 /* photoTableViewCell.swift */; };
+		0B0194971D23614F006F6E89 /* movieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0194961D23614F006F6E89 /* movieCell.xib */; };
+		0B0194991D23619C006F6E89 /* movieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0194981D23619C006F6E89 /* movieTableViewCell.swift */; };
+		0B029EE31D08FB7400A747C9 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B029EE21D08FB7400A747C9 /* HomeNavigationController.swift */; };
+		0B030BAA1D0A7E5400C8E08D /* ssgSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B030BA91D0A7E5400C8E08D /* ssgSetting.png */; };
+		0B033C971D0BD98100165071 /* professor_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033C961D0BD98100165071 /* professor_n.png */; };
+		0B033C991D0BD98600165071 /* psycotherapist_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033C981D0BD98600165071 /* psycotherapist_n.png */; };
+		0B033C9B1D0BD98B00165071 /* assailant_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033C9A1D0BD98B00165071 /* assailant_n.png */; };
+		0B033C9D1D0BD99000165071 /* lawyer_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033C9C1D0BD99000165071 /* lawyer_n.png */; };
+		0B033C9F1D0BD99500165071 /* committee_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033C9E1D0BD99500165071 /* committee_n.png */; };
+		0B033CA11D0BD9A500165071 /* friend_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B033CA01D0BD9A500165071 /* friend_new.png */; };
+		0B03D2901CF7D58E0050119E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03D28F1CF7D58E0050119E /* AddViewController.swift */; };
+		0B03D2921CF7F4FB0050119E /* AddWhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03D2911CF7F4FB0050119E /* AddWhereViewController.swift */; };
+		0B03D2941CF7F6050050119E /* AddWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03D2931CF7F6050050119E /* AddWhoViewController.swift */; };
+		0B048E0A1D424931009AB0D1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B048E091D424931009AB0D1 /* MessageUI.framework */; };
+		0B04BED61D1074EB000264CC /* Delete-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BED51D1074EB000264CC /* Delete-50.png */; };
+		0B06302B1D07DDBE00F9E98B /* mailContents.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B06302A1D07DDBE00F9E98B /* mailContents.txt */; };
+		0B0686C71CFBFA58002AB722 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0686C61CFBFA58002AB722 /* DetailViewController.swift */; };
+		0B09CC4F1D2FE2B800427D7D /* TOUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09CC4E1D2FE2B800427D7D /* TOUViewController.swift */; };
+		0B09CC511D2FED7700427D7D /* HowToUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09CC501D2FED7700427D7D /* HowToUseViewController.swift */; };
+		0B09CC531D2FF00F00427D7D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09CC521D2FF00F00427D7D /* ContactViewController.swift */; };
+		0B09F2491D02C38E006F11D5 /* ChosePostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09F2481D02C38E006F11D5 /* ChosePostsViewController.swift */; };
+		0B0BC3F91D1982BE0009ED07 /* troubledWoman のコピー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0BC3F81D1982BE0009ED07 /* troubledWoman のコピー.jpg */; };
+		0B467DE51D17BF0D000C6DC1 /* Menu-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B467DE41D17BF0D000C6DC1 /* Menu-25.png */; };
+		0B4D52CE1D0C624A0065C0AF /* advisors.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D52CD1D0C624A0065C0AF /* advisors.png */; };
+		0B4D52D01D0C624F0065C0AF /* prepare.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D52CF1D0C624F0065C0AF /* prepare.png */; };
+		0B59AD381D07AFEE00E740F5 /* AssistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59AD371D07AFED00E740F5 /* AssistTableViewController.swift */; };
+		0B59AD3A1D07B1B000E740F5 /* assistInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B59AD391D07B1B000E740F5 /* assistInfoCell.xib */; };
+		0B59AD3C1D07B55A00E740F5 /* assistInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59AD3B1D07B55A00E740F5 /* assistInfoTableViewCell.swift */; };
+		0B59AD3E1D07B61900E740F5 /* assistInfoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B59AD3D1D07B61900E740F5 /* assistInfoDetailCell.xib */; };
+		0B59AD401D07B68100E740F5 /* assistInfoDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59AD3F1D07B68100E740F5 /* assistInfoDetailTableViewCell.swift */; };
+		0B59AD441D07BA0F00E740F5 /* assistChoseAdvisorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B59AD431D07BA0F00E740F5 /* assistChoseAdvisorCell.xib */; };
+		0B59AD461D07BB9100E740F5 /* assistChoseAdvisorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59AD451D07BB9100E740F5 /* assistChoseAdvisorTableViewCell.swift */; };
+		0B59AD481D07C01600E740F5 /* assistChosePostsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B59AD471D07C01600E740F5 /* assistChosePostsCell.xib */; };
+		0B59AD4A1D07C04400E740F5 /* assistChosePostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59AD491D07C04400E740F5 /* assistChosePostsTableViewCell.swift */; };
+		0B59DE081D35BD23005E8B45 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59DE071D35BD23005E8B45 /* MovieViewController.swift */; };
+		0B5AFA7C1D0855FA001D3DCA /* s_ema.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AFA7B1D0855FA001D3DCA /* s_ema.png */; };
+		0B5AFA7E1D085651001D3DCA /* homeIntroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AFA7D1D085651001D3DCA /* homeIntroTableViewCell.swift */; };
+		0B5AFA801D085C10001D3DCA /* s_makeruna.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AFA7F1D085C10001D3DCA /* s_makeruna.png */; };
+		0B73CE6D1D0D998D007658EF /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73CE6C1D0D998D007658EF /* SSASideMenu.swift */; };
+		0B73CE6F1D0DA1F9007658EF /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B73CE6E1D0DA1F9007658EF /* Background.jpg */; };
+		0B772C681D09ACAB00086E17 /* happy_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B772C671D09ACAB00086E17 /* happy_s.png */; };
+		0B772C6A1D09ACB100086E17 /* troubled_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B772C691D09ACB100086E17 /* troubled_s.png */; };
+		0B772C6C1D09B53C00086E17 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B772C6B1D09B53C00086E17 /* TabBarController.swift */; };
+		0B94338B1D0275AA00A93027 /* AssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94338A1D0275AA00A93027 /* AssistViewController.swift */; };
+		0B97FE171D0E58600000E700 /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97FE161D0E58600000E700 /* StepViewController.swift */; };
+		0B9DBFE71CFFF1F200B78293 /* AddSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DBFE61CFFF1F200B78293 /* AddSoundViewController.swift */; };
+		0B9DF2611D01ADC100B478C7 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DF2601D01ADC100B478C7 /* PictureViewController.swift */; };
+		0BA5624F1CFB112600760490 /* bgImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BA5624E1CFB112600760490 /* bgImage.JPG */; };
+		0BAD28201D2A074B00A1DCE2 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD281F1D2A074B00A1DCE2 /* SelectViewController.swift */; };
+		0BADA6181CFB3089001702D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BADA6161CFB3089001702D7 /* Main.storyboard */; };
+		0BADA61A1CFB3B9E001702D7 /* AddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADA6191CFB3B9E001702D7 /* AddDiaryViewController.swift */; };
+		0BB232C41D1BB1B200F996AA /* choseCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB232C31D1BB1B200F996AA /* choseCustomCell.xib */; };
+		0BB232C61D1BB22C00F996AA /* choseCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB232C51D1BB22C00F996AA /* choseCustomCell.swift */; };
+		0BB408B61D13E72B00D26AB7 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408B51D13E72B00D26AB7 /* wall.jpg */; };
+		0BB408C41D14FE9C00D26AB7 /* sAdvisors.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408C31D14FE9C00D26AB7 /* sAdvisors.png */; };
+		0BB408C61D14FF3E00D26AB7 /* sPen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408C51D14FF3E00D26AB7 /* sPen.png */; };
+		0BB408C81D1506A500D26AB7 /* Sent-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408C71D1506A500D26AB7 /* Sent-20.png */; };
+		0BB408CC1D15085800D26AB7 /* sInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408CB1D15085800D26AB7 /* sInfo.png */; };
+		0BB408CE1D150B3500D26AB7 /* sPrepare.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408CD1D150B3500D26AB7 /* sPrepare.png */; };
+		0BB408D41D15123600D26AB7 /* times.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408D31D15123600D26AB7 /* times.png */; };
+		0BB408D61D15144200D26AB7 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB408D51D15144200D26AB7 /* inbox.png */; };
+		0BC1DB101D0378E100D203C1 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC1DB0F1D0378E100D203C1 /* question.png */; };
+		0BC1DB121D037B3B00D203C1 /* s_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC1DB111D037B3B00D203C1 /* s_question.png */; };
+		0BD2B6881D111C820032F502 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2B6871D111C820032F502 /* LeftMenuViewController.swift */; };
+		0BD4F1541D051A28001AA8EC /* MailContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD4F1531D051A28001AA8EC /* MailContentViewController.swift */; };
+		0BDD5B051D086AC60091DD20 /* ema.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD5B041D086AC60091DD20 /* ema.png */; };
+		0BDD5B071D086B170091DD20 /* mokuhyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD5B061D086B170091DD20 /* mokuhyou.png */; };
+		0BE19D8B1D0C89C10014FEF1 /* future.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BE19D8A1D0C89C10014FEF1 /* future.jpg */; };
+		0BE19D8F1D0C89CD0014FEF1 /* advisor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BE19D8E1D0C89CD0014FEF1 /* advisor.jpg */; };
+		0BE248981D05A97A002BEC1F /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE248971D05A97A002BEC1F /* AddTableViewController.swift */; };
+		0BE2489C1D05AAE1002BEC1F /* dateTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2489B1D05AAE1002BEC1F /* dateTimeCell.xib */; };
+		0BE2489E1D05ABEB002BEC1F /* dateTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2489D1D05ABEB002BEC1F /* dateTimeTableViewCell.swift */; };
+		0BE248A01D05AC8D002BEC1F /* datePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2489F1D05AC8D002BEC1F /* datePickerCell.xib */; };
+		0BE248A21D05ACEE002BEC1F /* datePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE248A11D05ACEE002BEC1F /* datePickerTableViewCell.swift */; };
+		0BE248A41D05AEE0002BEC1F /* bottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE248A31D05AEE0002BEC1F /* bottomCell.xib */; };
+		0BE248A61D05B18E002BEC1F /* bottomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE248A51D05B18E002BEC1F /* bottomTableViewCell.swift */; };
+		0BFF45CD1D0A637A0016FCB5 /* shand.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFF45CC1D0A637A0016FCB5 /* shand.png */; };
+		0BFF45D31D0A65D70016FCB5 /* ssfolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFF45D21D0A65D70016FCB5 /* ssfolder.png */; };
+		0BFFF9D11CF82C8900CD1D65 /* selfee.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFFF9D01CF82C8900CD1D65 /* selfee.JPG */; };
+		0BFFF9D31CF82D8400CD1D65 /* pic3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFFF9D21CF82D8400CD1D65 /* pic3.JPG */; };
+		0BFFF9D51CF82DA400CD1D65 /* pic1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFFF9D41CF82DA400CD1D65 /* pic1.JPG */; };
+		4D76ADF7242958E2BB870AD8 /* libPods-acahara_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB18DBECA6510ACAAC1FF7 /* libPods-acahara_app.a */; };
+		D1E546A272048A6CFA197D7F /* libPods-acahara_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA4741452B75F867554587 /* libPods-acahara_appTests.a */; };
+		F2BB6600C7ED54E6BD4FF4E1 /* libPods-acahara_appUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE52AE623E123E179E1D209 /* libPods-acahara_appUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B00949D1CF6FFB90041B3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B00947E1CF6FFB90041B3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0094851CF6FFB90041B3B5;
+			remoteInfo = acahara_app;
+		};
+		0B0094A81CF6FFB90041B3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B00947E1CF6FFB90041B3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0094851CF6FFB90041B3B5;
+			remoteInfo = acahara_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DB18DBECA6510ACAAC1FF7 /* libPods-acahara_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-acahara_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B001C4B1D250B3D00424B03 /* makeURLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = makeURLCell.xib; sourceTree = "<group>"; };
+		0B001C4D1D250C1900424B03 /* makeURLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeURLTableViewCell.swift; sourceTree = "<group>"; };
+		0B0094861CF6FFB90041B3B5 /* acahara_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acahara_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0094891CF6FFB90041B3B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B00948B1CF6FFB90041B3B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0B00948D1CF6FFB90041B3B5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0B0094921CF6FFB90041B3B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B0094951CF6FFB90041B3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B0094971CF6FFB90041B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B00949C1CF6FFB90041B3B5 /* acahara_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acahara_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0094A01CF6FFB90041B3B5 /* acahara_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acahara_appTests.swift; sourceTree = "<group>"; };
+		0B0094A21CF6FFB90041B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0094A71CF6FFB90041B3B5 /* acahara_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acahara_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0094AB1CF6FFB90041B3B5 /* acahara_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acahara_appUITests.swift; sourceTree = "<group>"; };
+		0B0094AD1CF6FFB90041B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0094B91CF708120041B3B5 /* postCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = postCustomCell.xib; sourceTree = "<group>"; };
+		0B0094BD1CF70C440041B3B5 /* posts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = posts.txt; sourceTree = "<group>"; };
+		0B0094BF1CF70D760041B3B5 /* homeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
+		0B0094C31CF71A560041B3B5 /* acahara_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "acahara_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B0094C61CF71A9B0041B3B5 /* acahara_appTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "acahara_appTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B0094C71CF71A9B0041B3B5 /* acahara_appUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "acahara_appUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B01319D1D0ADD51008D04F3 /* create_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_new.png; sourceTree = "<group>"; };
+		0B0194921D23606D006F6E89 /* photoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = photoCell.xib; sourceTree = "<group>"; };
+		0B0194941D2360C2006F6E89 /* photoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoTableViewCell.swift; sourceTree = "<group>"; };
+		0B0194961D23614F006F6E89 /* movieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = movieCell.xib; sourceTree = "<group>"; };
+		0B0194981D23619C006F6E89 /* movieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieTableViewCell.swift; sourceTree = "<group>"; };
+		0B029EE21D08FB7400A747C9 /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		0B030BA91D0A7E5400C8E08D /* ssgSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ssgSetting.png; sourceTree = "<group>"; };
+		0B033C961D0BD98100165071 /* professor_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = professor_n.png; sourceTree = "<group>"; };
+		0B033C981D0BD98600165071 /* psycotherapist_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psycotherapist_n.png; sourceTree = "<group>"; };
+		0B033C9A1D0BD98B00165071 /* assailant_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assailant_n.png; sourceTree = "<group>"; };
+		0B033C9C1D0BD99000165071 /* lawyer_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawyer_n.png; sourceTree = "<group>"; };
+		0B033C9E1D0BD99500165071 /* committee_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = committee_n.png; sourceTree = "<group>"; };
+		0B033CA01D0BD9A500165071 /* friend_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friend_new.png; sourceTree = "<group>"; };
+		0B03D28F1CF7D58E0050119E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0B03D2911CF7F4FB0050119E /* AddWhereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWhereViewController.swift; sourceTree = "<group>"; };
+		0B03D2931CF7F6050050119E /* AddWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWhoViewController.swift; sourceTree = "<group>"; };
+		0B048E091D424931009AB0D1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0B04BED51D1074EB000264CC /* Delete-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete-50.png"; sourceTree = "<group>"; };
+		0B06302A1D07DDBE00F9E98B /* mailContents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mailContents.txt; sourceTree = "<group>"; };
+		0B0686C61CFBFA58002AB722 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0B09CC4E1D2FE2B800427D7D /* TOUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOUViewController.swift; sourceTree = "<group>"; };
+		0B09CC501D2FED7700427D7D /* HowToUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToUseViewController.swift; sourceTree = "<group>"; };
+		0B09CC521D2FF00F00427D7D /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		0B09F2481D02C38E006F11D5 /* ChosePostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosePostsViewController.swift; sourceTree = "<group>"; };
+		0B0BC3F81D1982BE0009ED07 /* troubledWoman のコピー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "troubledWoman のコピー.jpg"; sourceTree = "<group>"; };
+		0B467DE41D17BF0D000C6DC1 /* Menu-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-25.png"; sourceTree = "<group>"; };
+		0B4D52CD1D0C624A0065C0AF /* advisors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advisors.png; sourceTree = "<group>"; };
+		0B4D52CF1D0C624F0065C0AF /* prepare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prepare.png; sourceTree = "<group>"; };
+		0B59AD371D07AFED00E740F5 /* AssistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistTableViewController.swift; sourceTree = "<group>"; };
+		0B59AD391D07B1B000E740F5 /* assistInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = assistInfoCell.xib; sourceTree = "<group>"; };
+		0B59AD3B1D07B55A00E740F5 /* assistInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assistInfoTableViewCell.swift; sourceTree = "<group>"; };
+		0B59AD3D1D07B61900E740F5 /* assistInfoDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = assistInfoDetailCell.xib; sourceTree = "<group>"; };
+		0B59AD3F1D07B68100E740F5 /* assistInfoDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assistInfoDetailTableViewCell.swift; sourceTree = "<group>"; };
+		0B59AD431D07BA0F00E740F5 /* assistChoseAdvisorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = assistChoseAdvisorCell.xib; sourceTree = "<group>"; };
+		0B59AD451D07BB9100E740F5 /* assistChoseAdvisorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assistChoseAdvisorTableViewCell.swift; sourceTree = "<group>"; };
+		0B59AD471D07C01600E740F5 /* assistChosePostsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = assistChosePostsCell.xib; sourceTree = "<group>"; };
+		0B59AD491D07C04400E740F5 /* assistChosePostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assistChosePostsTableViewCell.swift; sourceTree = "<group>"; };
+		0B59DE071D35BD23005E8B45 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		0B5AFA7B1D0855FA001D3DCA /* s_ema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_ema.png; sourceTree = "<group>"; };
+		0B5AFA7D1D085651001D3DCA /* homeIntroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeIntroTableViewCell.swift; sourceTree = "<group>"; };
+		0B5AFA7F1D085C10001D3DCA /* s_makeruna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_makeruna.png; sourceTree = "<group>"; };
+		0B73CE6C1D0D998D007658EF /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSASideMenu.swift; path = SSASideMenu/SSASideMenu.swift; sourceTree = "<group>"; };
+		0B73CE6E1D0DA1F9007658EF /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		0B772C671D09ACAB00086E17 /* happy_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy_s.png; path = ../acahara_app/happy_s.png; sourceTree = "<group>"; };
+		0B772C691D09ACB100086E17 /* troubled_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = troubled_s.png; sourceTree = "<group>"; };
+		0B772C6B1D09B53C00086E17 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0B94338A1D0275AA00A93027 /* AssistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistViewController.swift; sourceTree = "<group>"; };
+		0B97FE161D0E58600000E700 /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		0B9DBFE61CFFF1F200B78293 /* AddSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSoundViewController.swift; sourceTree = "<group>"; };
+		0B9DF2601D01ADC100B478C7 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		0BA5624E1CFB112600760490 /* bgImage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImage.JPG; sourceTree = "<group>"; };
+		0BAD281F1D2A074B00A1DCE2 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		0BADA6171CFB3089001702D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BADA6191CFB3B9E001702D7 /* AddDiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiaryViewController.swift; sourceTree = "<group>"; };
+		0BB232C31D1BB1B200F996AA /* choseCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = choseCustomCell.xib; sourceTree = "<group>"; };
+		0BB232C51D1BB22C00F996AA /* choseCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = choseCustomCell.swift; sourceTree = "<group>"; };
+		0BB408B51D13E72B00D26AB7 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		0BB408C31D14FE9C00D26AB7 /* sAdvisors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sAdvisors.png; sourceTree = "<group>"; };
+		0BB408C51D14FF3E00D26AB7 /* sPen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sPen.png; sourceTree = "<group>"; };
+		0BB408C71D1506A500D26AB7 /* Sent-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sent-20.png"; sourceTree = "<group>"; };
+		0BB408CB1D15085800D26AB7 /* sInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sInfo.png; sourceTree = "<group>"; };
+		0BB408CD1D150B3500D26AB7 /* sPrepare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sPrepare.png; sourceTree = "<group>"; };
+		0BB408D31D15123600D26AB7 /* times.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = times.png; sourceTree = "<group>"; };
+		0BB408D51D15144200D26AB7 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		0BC1DB0F1D0378E100D203C1 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		0BC1DB111D037B3B00D203C1 /* s_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_question.png; sourceTree = "<group>"; };
+		0BD2B6871D111C820032F502 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		0BD4F1531D051A28001AA8EC /* MailContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailContentViewController.swift; sourceTree = "<group>"; };
+		0BDD5B041D086AC60091DD20 /* ema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ema.png; sourceTree = "<group>"; };
+		0BDD5B061D086B170091DD20 /* mokuhyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mokuhyou.png; path = ../acahara_app/mokuhyou.png; sourceTree = "<group>"; };
+		0BE19D8A1D0C89C10014FEF1 /* future.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = future.jpg; sourceTree = "<group>"; };
+		0BE19D8E1D0C89CD0014FEF1 /* advisor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = advisor.jpg; sourceTree = "<group>"; };
+		0BE248971D05A97A002BEC1F /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		0BE2489B1D05AAE1002BEC1F /* dateTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dateTimeCell.xib; sourceTree = "<group>"; };
+		0BE2489D1D05ABEB002BEC1F /* dateTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = dateTimeTableViewCell.swift; sourceTree = "<group>"; usesTabs = 0; };
+		0BE2489F1D05AC8D002BEC1F /* datePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = datePickerCell.xib; sourceTree = "<group>"; };
+		0BE248A11D05ACEE002BEC1F /* datePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePickerTableViewCell.swift; sourceTree = "<group>"; };
+		0BE248A31D05AEE0002BEC1F /* bottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bottomCell.xib; sourceTree = "<group>"; };
+		0BE248A51D05B18E002BEC1F /* bottomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bottomTableViewCell.swift; sourceTree = "<group>"; };
+		0BFF45CC1D0A637A0016FCB5 /* shand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shand.png; sourceTree = "<group>"; };
+		0BFF45D21D0A65D70016FCB5 /* ssfolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ssfolder.png; sourceTree = "<group>"; };
+		0BFFF9D01CF82C8900CD1D65 /* selfee.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = selfee.JPG; sourceTree = "<group>"; };
+		0BFFF9D21CF82D8400CD1D65 /* pic3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.JPG; sourceTree = "<group>"; };
+		0BFFF9D41CF82DA400CD1D65 /* pic1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.JPG; sourceTree = "<group>"; };
+		1AE52AE623E123E179E1D209 /* libPods-acahara_appUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-acahara_appUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CEE69A79183AE3F940409C /* Pods-acahara_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_app/Pods-acahara_app.debug.xcconfig"; sourceTree = "<group>"; };
+		656496383B37E6EECBE8630A /* Pods-acahara_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_appUITests/Pods-acahara_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87DA4741452B75F867554587 /* libPods-acahara_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-acahara_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B48241CEC2687D2BB63CC4F /* Pods-acahara_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_app/Pods-acahara_app.release.xcconfig"; sourceTree = "<group>"; };
+		A1C07BB02BCFA70445733C50 /* Pods-acahara_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_appTests/Pods-acahara_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB7EEB21F159E31BF5D48C25 /* Pods-acahara_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_appTests/Pods-acahara_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F61F3DBDFC6C79EBF3ABEC72 /* Pods-acahara_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acahara_appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-acahara_appUITests/Pods-acahara_appUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0094831CF6FFB90041B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B048E0A1D424931009AB0D1 /* MessageUI.framework in Frameworks */,
+				4D76ADF7242958E2BB870AD8 /* libPods-acahara_app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0094991CF6FFB90041B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E546A272048A6CFA197D7F /* libPods-acahara_appTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0094A41CF6FFB90041B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BB6600C7ED54E6BD4FF4E1 /* libPods-acahara_appUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B00947D1CF6FFB90041B3B5 = {
+			isa = PBXGroup;
+			children = (
+				0B0094881CF6FFB90041B3B5 /* acahara_app */,
+				0B00949F1CF6FFB90041B3B5 /* acahara_appTests */,
+				0B0094AA1CF6FFB90041B3B5 /* acahara_appUITests */,
+				0B0094871CF6FFB90041B3B5 /* Products */,
+				0B0094C31CF71A560041B3B5 /* acahara_app-Bridging-Header.h */,
+				0B0094C61CF71A9B0041B3B5 /* acahara_appTests-Bridging-Header.h */,
+				0B0094C71CF71A9B0041B3B5 /* acahara_appUITests-Bridging-Header.h */,
+				5016A44C20C51341C014E92E /* Pods */,
+				21214F4F16B41737C73D163A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0094871CF6FFB90041B3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0094861CF6FFB90041B3B5 /* acahara_app.app */,
+				0B00949C1CF6FFB90041B3B5 /* acahara_appTests.xctest */,
+				0B0094A71CF6FFB90041B3B5 /* acahara_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0094881CF6FFB90041B3B5 /* acahara_app */ = {
+			isa = PBXGroup;
+			children = (
+				0B0094BF1CF70D760041B3B5 /* homeTableViewCell.swift */,
+				0BE2489D1D05ABEB002BEC1F /* dateTimeTableViewCell.swift */,
+				0BE248A11D05ACEE002BEC1F /* datePickerTableViewCell.swift */,
+				0BE248A51D05B18E002BEC1F /* bottomTableViewCell.swift */,
+				0B59AD3B1D07B55A00E740F5 /* assistInfoTableViewCell.swift */,
+				0B59AD3F1D07B68100E740F5 /* assistInfoDetailTableViewCell.swift */,
+				0B59AD451D07BB9100E740F5 /* assistChoseAdvisorTableViewCell.swift */,
+				0B59AD491D07C04400E740F5 /* assistChosePostsTableViewCell.swift */,
+				0B5AFA7D1D085651001D3DCA /* homeIntroTableViewCell.swift */,
+				0BB232C51D1BB22C00F996AA /* choseCustomCell.swift */,
+				0B0194941D2360C2006F6E89 /* photoTableViewCell.swift */,
+				0B0194981D23619C006F6E89 /* movieTableViewCell.swift */,
+				0B001C4D1D250C1900424B03 /* makeURLTableViewCell.swift */,
+				0BB232C31D1BB1B200F996AA /* choseCustomCell.xib */,
+				0B001C4B1D250B3D00424B03 /* makeURLCell.xib */,
+				0B0194921D23606D006F6E89 /* photoCell.xib */,
+				0B0194961D23614F006F6E89 /* movieCell.xib */,
+				0B0094B91CF708120041B3B5 /* postCustomCell.xib */,
+				0B59AD391D07B1B000E740F5 /* assistInfoCell.xib */,
+				0B59AD3D1D07B61900E740F5 /* assistInfoDetailCell.xib */,
+				0B59AD431D07BA0F00E740F5 /* assistChoseAdvisorCell.xib */,
+				0B59AD471D07C01600E740F5 /* assistChosePostsCell.xib */,
+				0BE2489B1D05AAE1002BEC1F /* dateTimeCell.xib */,
+				0BE2489F1D05AC8D002BEC1F /* datePickerCell.xib */,
+				0BE248A31D05AEE0002BEC1F /* bottomCell.xib */,
+				0B0094891CF6FFB90041B3B5 /* AppDelegate.swift */,
+				0B00948B1CF6FFB90041B3B5 /* HomeViewController.swift */,
+				0BD2B6871D111C820032F502 /* LeftMenuViewController.swift */,
+				0B772C6B1D09B53C00086E17 /* TabBarController.swift */,
+				0B029EE21D08FB7400A747C9 /* HomeNavigationController.swift */,
+				0B0686C61CFBFA58002AB722 /* DetailViewController.swift */,
+				0B9DF2601D01ADC100B478C7 /* PictureViewController.swift */,
+				0B59DE071D35BD23005E8B45 /* MovieViewController.swift */,
+				0BE248971D05A97A002BEC1F /* AddTableViewController.swift */,
+				0B03D28F1CF7D58E0050119E /* AddViewController.swift */,
+				0B03D2911CF7F4FB0050119E /* AddWhereViewController.swift */,
+				0B03D2931CF7F6050050119E /* AddWhoViewController.swift */,
+				0BADA6191CFB3B9E001702D7 /* AddDiaryViewController.swift */,
+				0BAD281F1D2A074B00A1DCE2 /* SelectViewController.swift */,
+				0B9DBFE61CFFF1F200B78293 /* AddSoundViewController.swift */,
+				0B97FE161D0E58600000E700 /* StepViewController.swift */,
+				0B59AD371D07AFED00E740F5 /* AssistTableViewController.swift */,
+				0B94338A1D0275AA00A93027 /* AssistViewController.swift */,
+				0BD4F1531D051A28001AA8EC /* MailContentViewController.swift */,
+				0B00948D1CF6FFB90041B3B5 /* SettingViewController.swift */,
+				0B09CC4E1D2FE2B800427D7D /* TOUViewController.swift */,
+				0B09CC501D2FED7700427D7D /* HowToUseViewController.swift */,
+				0B09CC521D2FF00F00427D7D /* ContactViewController.swift */,
+				0B09F2481D02C38E006F11D5 /* ChosePostsViewController.swift */,
+				0BADA6161CFB3089001702D7 /* Main.storyboard */,
+				0B73CE6B1D0D998D007658EF /* SSASideMenu */,
+				0B73CE6C1D0D998D007658EF /* SSASideMenu.swift */,
+				0B0094921CF6FFB90041B3B5 /* Assets.xcassets */,
+				0BB408CD1D150B3500D26AB7 /* sPrepare.png */,
+				0B0BC3F81D1982BE0009ED07 /* troubledWoman のコピー.jpg */,
+				0B467DE41D17BF0D000C6DC1 /* Menu-25.png */,
+				0BB408D51D15144200D26AB7 /* inbox.png */,
+				0BB408D31D15123600D26AB7 /* times.png */,
+				0BB408CB1D15085800D26AB7 /* sInfo.png */,
+				0BB408C71D1506A500D26AB7 /* Sent-20.png */,
+				0BB408C51D14FF3E00D26AB7 /* sPen.png */,
+				0BB408C31D14FE9C00D26AB7 /* sAdvisors.png */,
+				0BB408B51D13E72B00D26AB7 /* wall.jpg */,
+				0B04BED51D1074EB000264CC /* Delete-50.png */,
+				0B73CE6E1D0DA1F9007658EF /* Background.jpg */,
+				0BE19D8E1D0C89CD0014FEF1 /* advisor.jpg */,
+				0BE19D8A1D0C89C10014FEF1 /* future.jpg */,
+				0B4D52CF1D0C624F0065C0AF /* prepare.png */,
+				0B4D52CD1D0C624A0065C0AF /* advisors.png */,
+				0B033CA01D0BD9A500165071 /* friend_new.png */,
+				0B033C9E1D0BD99500165071 /* committee_n.png */,
+				0B033C9C1D0BD99000165071 /* lawyer_n.png */,
+				0B033C9A1D0BD98B00165071 /* assailant_n.png */,
+				0B033C981D0BD98600165071 /* psycotherapist_n.png */,
+				0B033C961D0BD98100165071 /* professor_n.png */,
+				0B01319D1D0ADD51008D04F3 /* create_new.png */,
+				0B030BA91D0A7E5400C8E08D /* ssgSetting.png */,
+				0BFF45D21D0A65D70016FCB5 /* ssfolder.png */,
+				0BFF45CC1D0A637A0016FCB5 /* shand.png */,
+				0B772C691D09ACB100086E17 /* troubled_s.png */,
+				0BDD5B041D086AC60091DD20 /* ema.png */,
+				0B5AFA7B1D0855FA001D3DCA /* s_ema.png */,
+				0BC1DB111D037B3B00D203C1 /* s_question.png */,
+				0BC1DB0F1D0378E100D203C1 /* question.png */,
+				0B5AFA7F1D085C10001D3DCA /* s_makeruna.png */,
+				0BA5624E1CFB112600760490 /* bgImage.JPG */,
+				0BFFF9D41CF82DA400CD1D65 /* pic1.JPG */,
+				0BFFF9D21CF82D8400CD1D65 /* pic3.JPG */,
+				0BFFF9D01CF82C8900CD1D65 /* selfee.JPG */,
+				0B0094941CF6FFB90041B3B5 /* LaunchScreen.storyboard */,
+				0B0094971CF6FFB90041B3B5 /* Info.plist */,
+				0B0094BD1CF70C440041B3B5 /* posts.txt */,
+				0B06302A1D07DDBE00F9E98B /* mailContents.txt */,
+			);
+			path = acahara_app;
+			sourceTree = "<group>";
+		};
+		0B00949F1CF6FFB90041B3B5 /* acahara_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0094A01CF6FFB90041B3B5 /* acahara_appTests.swift */,
+				0B0094A21CF6FFB90041B3B5 /* Info.plist */,
+			);
+			path = acahara_appTests;
+			sourceTree = "<group>";
+		};
+		0B0094AA1CF6FFB90041B3B5 /* acahara_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0094AB1CF6FFB90041B3B5 /* acahara_appUITests.swift */,
+				0B0094AD1CF6FFB90041B3B5 /* Info.plist */,
+				0B772C671D09ACAB00086E17 /* happy_s.png */,
+				0BDD5B061D086B170091DD20 /* mokuhyou.png */,
+			);
+			path = acahara_appUITests;
+			sourceTree = "<group>";
+		};
+		0B73CE6B1D0D998D007658EF /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SSASideMenu;
+			sourceTree = "<group>";
+		};
+		21214F4F16B41737C73D163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B048E091D424931009AB0D1 /* MessageUI.framework */,
+				00DB18DBECA6510ACAAC1FF7 /* libPods-acahara_app.a */,
+				87DA4741452B75F867554587 /* libPods-acahara_appTests.a */,
+				1AE52AE623E123E179E1D209 /* libPods-acahara_appUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5016A44C20C51341C014E92E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57CEE69A79183AE3F940409C /* Pods-acahara_app.debug.xcconfig */,
+				9B48241CEC2687D2BB63CC4F /* Pods-acahara_app.release.xcconfig */,
+				AB7EEB21F159E31BF5D48C25 /* Pods-acahara_appTests.debug.xcconfig */,
+				A1C07BB02BCFA70445733C50 /* Pods-acahara_appTests.release.xcconfig */,
+				656496383B37E6EECBE8630A /* Pods-acahara_appUITests.debug.xcconfig */,
+				F61F3DBDFC6C79EBF3ABEC72 /* Pods-acahara_appUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0094851CF6FFB90041B3B5 /* acahara_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0094B01CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_app" */;
+			buildPhases = (
+				9314F4CF2A95ED0BDDA15F1D /* 📦 Check Pods Manifest.lock */,
+				0B0094821CF6FFB90041B3B5 /* Sources */,
+				0B0094831CF6FFB90041B3B5 /* Frameworks */,
+				0B0094841CF6FFB90041B3B5 /* Resources */,
+				ED6F6BB716AA15B70A8CCD76 /* 📦 Embed Pods Frameworks */,
+				74E9F5BCDFD574C8E0E91DB5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acahara_app;
+			productName = acahara_app;
+			productReference = 0B0094861CF6FFB90041B3B5 /* acahara_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B00949B1CF6FFB90041B3B5 /* acahara_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0094B31CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_appTests" */;
+			buildPhases = (
+				1AC51B30DEA9808F2BC0BB25 /* 📦 Check Pods Manifest.lock */,
+				0B0094981CF6FFB90041B3B5 /* Sources */,
+				0B0094991CF6FFB90041B3B5 /* Frameworks */,
+				0B00949A1CF6FFB90041B3B5 /* Resources */,
+				35DCD04D102290362F5C0BF1 /* 📦 Embed Pods Frameworks */,
+				4C04DF334DF45CAAAC4696F8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B00949E1CF6FFB90041B3B5 /* PBXTargetDependency */,
+			);
+			name = acahara_appTests;
+			productName = acahara_appTests;
+			productReference = 0B00949C1CF6FFB90041B3B5 /* acahara_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B0094A61CF6FFB90041B3B5 /* acahara_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0094B61CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_appUITests" */;
+			buildPhases = (
+				880E79B56AF76CB15C078689 /* 📦 Check Pods Manifest.lock */,
+				0B0094A31CF6FFB90041B3B5 /* Sources */,
+				0B0094A41CF6FFB90041B3B5 /* Frameworks */,
+				0B0094A51CF6FFB90041B3B5 /* Resources */,
+				0BA1BDD4D408FA720D9732EE /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0094A91CF6FFB90041B3B5 /* PBXTargetDependency */,
+			);
+			name = acahara_appUITests;
+			productName = acahara_appUITests;
+			productReference = 0B0094A71CF6FFB90041B3B5 /* acahara_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B00947E1CF6FFB90041B3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "RIho OKubo";
+				TargetAttributes = {
+					0B0094851CF6FFB90041B3B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0B00949B1CF6FFB90041B3B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B0094851CF6FFB90041B3B5;
+					};
+					0B0094A61CF6FFB90041B3B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B0094851CF6FFB90041B3B5;
+					};
+				};
+			};
+			buildConfigurationList = 0B0094811CF6FFB90041B3B5 /* Build configuration list for PBXProject "acahara_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B00947D1CF6FFB90041B3B5;
+			productRefGroup = 0B0094871CF6FFB90041B3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0094851CF6FFB90041B3B5 /* acahara_app */,
+				0B00949B1CF6FFB90041B3B5 /* acahara_appTests */,
+				0B0094A61CF6FFB90041B3B5 /* acahara_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0094841CF6FFB90041B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB408D61D15144200D26AB7 /* inbox.png in Resources */,
+				0B0094BA1CF708120041B3B5 /* postCustomCell.xib in Resources */,
+				0BB408CE1D150B3500D26AB7 /* sPrepare.png in Resources */,
+				0B73CE6F1D0DA1F9007658EF /* Background.jpg in Resources */,
+				0BB408CC1D15085800D26AB7 /* sInfo.png in Resources */,
+				0B04BED61D1074EB000264CC /* Delete-50.png in Resources */,
+				0B59AD441D07BA0F00E740F5 /* assistChoseAdvisorCell.xib in Resources */,
+				0B030BAA1D0A7E5400C8E08D /* ssgSetting.png in Resources */,
+				0B0BC3F91D1982BE0009ED07 /* troubledWoman のコピー.jpg in Resources */,
+				0B59AD481D07C01600E740F5 /* assistChosePostsCell.xib in Resources */,
+				0BE248A01D05AC8D002BEC1F /* datePickerCell.xib in Resources */,
+				0B0094BE1CF70C440041B3B5 /* posts.txt in Resources */,
+				0B0094961CF6FFB90041B3B5 /* LaunchScreen.storyboard in Resources */,
+				0BFF45CD1D0A637A0016FCB5 /* shand.png in Resources */,
+				0B59AD3A1D07B1B000E740F5 /* assistInfoCell.xib in Resources */,
+				0B467DE51D17BF0D000C6DC1 /* Menu-25.png in Resources */,
+				0BDD5B071D086B170091DD20 /* mokuhyou.png in Resources */,
+				0BE2489C1D05AAE1002BEC1F /* dateTimeCell.xib in Resources */,
+				0B033C971D0BD98100165071 /* professor_n.png in Resources */,
+				0BFF45D31D0A65D70016FCB5 /* ssfolder.png in Resources */,
+				0BB408C61D14FF3E00D26AB7 /* sPen.png in Resources */,
+				0BB232C41D1BB1B200F996AA /* choseCustomCell.xib in Resources */,
+				0BC1DB101D0378E100D203C1 /* question.png in Resources */,
+				0BB408C81D1506A500D26AB7 /* Sent-20.png in Resources */,
+				0B59AD3E1D07B61900E740F5 /* assistInfoDetailCell.xib in Resources */,
+				0BFFF9D31CF82D8400CD1D65 /* pic3.JPG in Resources */,
+				0BFFF9D11CF82C8900CD1D65 /* selfee.JPG in Resources */,
+				0B033C9B1D0BD98B00165071 /* assailant_n.png in Resources */,
+				0B5AFA7C1D0855FA001D3DCA /* s_ema.png in Resources */,
+				0BE19D8B1D0C89C10014FEF1 /* future.jpg in Resources */,
+				0B033C9D1D0BD99000165071 /* lawyer_n.png in Resources */,
+				0B001C4C1D250B3D00424B03 /* makeURLCell.xib in Resources */,
+				0B01319E1D0ADD51008D04F3 /* create_new.png in Resources */,
+				0B4D52CE1D0C624A0065C0AF /* advisors.png in Resources */,
+				0BB408B61D13E72B00D26AB7 /* wall.jpg in Resources */,
+				0BB408C41D14FE9C00D26AB7 /* sAdvisors.png in Resources */,
+				0BE248A41D05AEE0002BEC1F /* bottomCell.xib in Resources */,
+				0B772C6A1D09ACB100086E17 /* troubled_s.png in Resources */,
+				0B0194931D23606D006F6E89 /* photoCell.xib in Resources */,
+				0B033C991D0BD98600165071 /* psycotherapist_n.png in Resources */,
+				0BE19D8F1D0C89CD0014FEF1 /* advisor.jpg in Resources */,
+				0BDD5B051D086AC60091DD20 /* ema.png in Resources */,
+				0B0094931CF6FFB90041B3B5 /* Assets.xcassets in Resources */,
+				0BC1DB121D037B3B00D203C1 /* s_question.png in Resources */,
+				0BADA6181CFB3089001702D7 /* Main.storyboard in Resources */,
+				0B0194971D23614F006F6E89 /* movieCell.xib in Resources */,
+				0BB408D41D15123600D26AB7 /* times.png in Resources */,
+				0B033C9F1D0BD99500165071 /* committee_n.png in Resources */,
+				0BFFF9D51CF82DA400CD1D65 /* pic1.JPG in Resources */,
+				0BA5624F1CFB112600760490 /* bgImage.JPG in Resources */,
+				0B06302B1D07DDBE00F9E98B /* mailContents.txt in Resources */,
+				0B5AFA801D085C10001D3DCA /* s_makeruna.png in Resources */,
+				0B4D52D01D0C624F0065C0AF /* prepare.png in Resources */,
+				0B033CA11D0BD9A500165071 /* friend_new.png in Resources */,
+				0B772C681D09ACAB00086E17 /* happy_s.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B00949A1CF6FFB90041B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0094A51CF6FFB90041B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA1BDD4D408FA720D9732EE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acahara_appUITests/Pods-acahara_appUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC51B30DEA9808F2BC0BB25 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35DCD04D102290362F5C0BF1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acahara_appTests/Pods-acahara_appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C04DF334DF45CAAAC4696F8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acahara_appTests/Pods-acahara_appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E9F5BCDFD574C8E0E91DB5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acahara_app/Pods-acahara_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880E79B56AF76CB15C078689 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9314F4CF2A95ED0BDDA15F1D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6F6BB716AA15B70A8CCD76 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acahara_app/Pods-acahara_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0094821CF6FFB90041B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAD28201D2A074B00A1DCE2 /* SelectViewController.swift in Sources */,
+				0B03D2941CF7F6050050119E /* AddWhoViewController.swift in Sources */,
+				0B772C6C1D09B53C00086E17 /* TabBarController.swift in Sources */,
+				0B9DF2611D01ADC100B478C7 /* PictureViewController.swift in Sources */,
+				0B73CE6D1D0D998D007658EF /* SSASideMenu.swift in Sources */,
+				0BE248A61D05B18E002BEC1F /* bottomTableViewCell.swift in Sources */,
+				0BB232C61D1BB22C00F996AA /* choseCustomCell.swift in Sources */,
+				0BADA61A1CFB3B9E001702D7 /* AddDiaryViewController.swift in Sources */,
+				0B94338B1D0275AA00A93027 /* AssistViewController.swift in Sources */,
+				0B9DBFE71CFFF1F200B78293 /* AddSoundViewController.swift in Sources */,
+				0B03D2901CF7D58E0050119E /* AddViewController.swift in Sources */,
+				0B59AD4A1D07C04400E740F5 /* assistChosePostsTableViewCell.swift in Sources */,
+				0B09CC511D2FED7700427D7D /* HowToUseViewController.swift in Sources */,
+				0B59DE081D35BD23005E8B45 /* MovieViewController.swift in Sources */,
+				0B97FE171D0E58600000E700 /* StepViewController.swift in Sources */,
+				0BE2489E1D05ABEB002BEC1F /* dateTimeTableViewCell.swift in Sources */,
+				0B00948E1CF6FFB90041B3B5 /* SettingViewController.swift in Sources */,
+				0BD4F1541D051A28001AA8EC /* MailContentViewController.swift in Sources */,
+				0B59AD461D07BB9100E740F5 /* assistChoseAdvisorTableViewCell.swift in Sources */,
+				0B59AD3C1D07B55A00E740F5 /* assistInfoTableViewCell.swift in Sources */,
+				0BD2B6881D111C820032F502 /* LeftMenuViewController.swift in Sources */,
+				0B09F2491D02C38E006F11D5 /* ChosePostsViewController.swift in Sources */,
+				0B001C4E1D250C1900424B03 /* makeURLTableViewCell.swift in Sources */,
+				0B00948A1CF6FFB90041B3B5 /* AppDelegate.swift in Sources */,
+				0B029EE31D08FB7400A747C9 /* HomeNavigationController.swift in Sources */,
+				0B59AD401D07B68100E740F5 /* assistInfoDetailTableViewCell.swift in Sources */,
+				0B0194991D23619C006F6E89 /* movieTableViewCell.swift in Sources */,
+				0BE248A21D05ACEE002BEC1F /* datePickerTableViewCell.swift in Sources */,
+				0B0094C01CF70D760041B3B5 /* homeTableViewCell.swift in Sources */,
+				0B0686C71CFBFA58002AB722 /* DetailViewController.swift in Sources */,
+				0B03D2921CF7F4FB0050119E /* AddWhereViewController.swift in Sources */,
+				0B00948C1CF6FFB90041B3B5 /* HomeViewController.swift in Sources */,
+				0B09CC531D2FF00F00427D7D /* ContactViewController.swift in Sources */,
+				0BE248981D05A97A002BEC1F /* AddTableViewController.swift in Sources */,
+				0B0194951D2360C2006F6E89 /* photoTableViewCell.swift in Sources */,
+				0B59AD381D07AFEE00E740F5 /* AssistTableViewController.swift in Sources */,
+				0B09CC4F1D2FE2B800427D7D /* TOUViewController.swift in Sources */,
+				0B5AFA7E1D085651001D3DCA /* homeIntroTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0094981CF6FFB90041B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0094A11CF6FFB90041B3B5 /* acahara_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0094A31CF6FFB90041B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0094AC1CF6FFB90041B3B5 /* acahara_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B00949E1CF6FFB90041B3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0094851CF6FFB90041B3B5 /* acahara_app */;
+			targetProxy = 0B00949D1CF6FFB90041B3B5 /* PBXContainerItemProxy */;
+		};
+		0B0094A91CF6FFB90041B3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0094851CF6FFB90041B3B5 /* acahara_app */;
+			targetProxy = 0B0094A81CF6FFB90041B3B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B0094941CF6FFB90041B3B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0094951CF6FFB90041B3B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0BADA6161CFB3089001702D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BADA6171CFB3089001702D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B0094AE1CF6FFB90041B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B0094AF1CF6FFB90041B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B0094B11CF6FFB90041B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CEE69A79183AE3F940409C /* Pods-acahara_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = acahara_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B0094B21CF6FFB90041B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B48241CEC2687D2BB63CC4F /* Pods-acahara_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = acahara_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_app-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0B0094B41CF6FFB90041B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7EEB21F159E31BF5D48C25 /* Pods-acahara_appTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = acahara_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_appTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acahara_app.app/acahara_app";
+			};
+			name = Debug;
+		};
+		0B0094B51CF6FFB90041B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C07BB02BCFA70445733C50 /* Pods-acahara_appTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = acahara_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_appTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acahara_app.app/acahara_app";
+			};
+			name = Release;
+		};
+		0B0094B71CF6FFB90041B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656496383B37E6EECBE8630A /* Pods-acahara_appUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = acahara_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_appUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = acahara_app;
+			};
+			name = Debug;
+		};
+		0B0094B81CF6FFB90041B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61F3DBDFC6C79EBF3ABEC72 /* Pods-acahara_appUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = acahara_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rihookubo.acahara-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "acahara_appUITests-Bridging-Header.h";
+				TEST_TARGET_NAME = acahara_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0094811CF6FFB90041B3B5 /* Build configuration list for PBXProject "acahara_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0094AE1CF6FFB90041B3B5 /* Debug */,
+				0B0094AF1CF6FFB90041B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0094B01CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0094B11CF6FFB90041B3B5 /* Debug */,
+				0B0094B21CF6FFB90041B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0094B31CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0094B41CF6FFB90041B3B5 /* Debug */,
+				0B0094B51CF6FFB90041B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0094B61CF6FFB90041B3B5 /* Build configuration list for PBXNativeTarget "acahara_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0094B71CF6FFB90041B3B5 /* Debug */,
+				0B0094B81CF6FFB90041B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B00947E1CF6FFB90041B3B5 /* Project object */;
+}

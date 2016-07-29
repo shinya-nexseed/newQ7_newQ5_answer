@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="540" id="1hM-lo-4YG" customClass="assistInfoDetailTableViewCell" customModule="acahara_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="540"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1hM-lo-4YG" id="nnM-PE-PGe">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="539"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="「...もう駄目だ。」と思ったらこのサービスを利用してください。アカハラ被害を記録した後で誰かに相談するとき、被害者が何度も繰り返し説明を強いられ、追体験しないで済むように作られました。" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iB-f3-M99">
+                        <rect key="frame" x="13" y="15" width="291" height="109"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="109" id="8mG-HW-aWC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="そうすると相談相手に見せたい「記録一覧」を含んだ、「特別な相談サイト」が作られます。一般公開はされていません。メール送信ボタンをタップすると、相談相手にあなたのメールアドレスからメールが送信されます。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hvP-Wo-aK5">
+                        <rect key="frame" x="21" y="402" width="283" height="121"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="121" id="EhN-64-OE7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troubled_s.png" translatesAutoresizingMaskIntoConstraints="NO" id="4SN-yj-KXq">
+                        <rect key="frame" x="126" y="123" width="72" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="5hb-K5-jZo"/>
+                            <constraint firstAttribute="width" constant="72" id="h7e-NS-Yfs"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="やり方は簡単です！まず、相談相手のタイプを選んでください。相談内容の雛形が現れるので、それを編集してください。次に、相談者に見せたい投稿記録を一覧から選び、一番下の「相談サイトを作成する」をタップしてください。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vfr-bB-aLb">
+                        <rect key="frame" x="21" y="204" width="283" height="116"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy_s.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fq9-RJ-AEC">
+                        <rect key="frame" x="126" y="324" width="69" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="vYw-Yk-xt2"/>
+                            <constraint firstAttribute="width" constant="69" id="zMq-Ac-uZe"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vfr-bB-aLb" firstAttribute="leading" secondItem="hvP-Wo-aK5" secondAttribute="leading" id="27g-FY-lBL"/>
+                    <constraint firstItem="Vfr-bB-aLb" firstAttribute="top" secondItem="4SN-yj-KXq" secondAttribute="bottom" constant="11" id="3eD-EI-uu4"/>
+                    <constraint firstItem="hvP-Wo-aK5" firstAttribute="bottom" secondItem="nnM-PE-PGe" secondAttribute="bottomMargin" constant="-8" id="5qb-0u-MEH"/>
+                    <constraint firstItem="Vfr-bB-aLb" firstAttribute="leading" secondItem="nnM-PE-PGe" secondAttribute="leadingMargin" constant="13" id="AsO-uN-3sl"/>
+                    <constraint firstItem="3iB-f3-M99" firstAttribute="trailing" secondItem="Vfr-bB-aLb" secondAttribute="trailing" id="C39-JH-Oi5"/>
+                    <constraint firstItem="Fq9-RJ-AEC" firstAttribute="top" secondItem="Vfr-bB-aLb" secondAttribute="bottom" constant="4" id="XNI-Bi-VKK"/>
+                    <constraint firstItem="hvP-Wo-aK5" firstAttribute="top" secondItem="Fq9-RJ-AEC" secondAttribute="bottom" constant="8" id="XlZ-Ga-WT5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3iB-f3-M99" secondAttribute="trailing" constant="8" id="cCm-GZ-1Os"/>
+                    <constraint firstItem="Vfr-bB-aLb" firstAttribute="top" secondItem="3iB-f3-M99" secondAttribute="bottom" constant="80" id="d1Q-sY-5sV"/>
+                    <constraint firstItem="3iB-f3-M99" firstAttribute="top" secondItem="nnM-PE-PGe" secondAttribute="topMargin" constant="7" id="jOV-bX-DZS"/>
+                    <constraint firstItem="4SN-yj-KXq" firstAttribute="centerX" secondItem="Vfr-bB-aLb" secondAttribute="centerX" id="odf-L0-CA1"/>
+                    <constraint firstItem="Vfr-bB-aLb" firstAttribute="trailing" secondItem="hvP-Wo-aK5" secondAttribute="trailing" id="qcc-vt-kiZ"/>
+                    <constraint firstItem="3iB-f3-M99" firstAttribute="leading" secondItem="nnM-PE-PGe" secondAttribute="leadingMargin" constant="5" id="qpK-oK-Pp3"/>
+                    <constraint firstItem="Fq9-RJ-AEC" firstAttribute="centerX" secondItem="hvP-Wo-aK5" secondAttribute="centerX" constant="-2" id="vJx-mT-ggO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="infoSentence1" destination="3iB-f3-M99" id="b7L-dy-CVf"/>
+                <outlet property="infoSentence2" destination="Vfr-bB-aLb" id="klv-6k-wrh"/>
+                <outlet property="infoSentence3" destination="hvP-Wo-aK5" id="5il-Ih-CGh"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="367"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="happy_s.png" width="522" height="620"/>
+        <image name="troubled_s.png" width="570" height="651"/>
+    </resources>
+</document>
